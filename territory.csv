@@ -24,8 +24,8 @@ Callaway,MO,confirmed,
 Montgomery,MO,confirmed,
 Warren,MO,confirmed,
 St. Charles,MO,confirmed,St Louis metro
-St. Louis,MO,verify,St Louis metro - confirm it is your territory not another rep
-St. Louis City,MO,verify,St Louis metro - confirm
+St. Louis,MO,confirmed,St Louis metro
+St. Louis City,MO,confirmed,St Louis metro
 Jefferson,MO,confirmed,
 Franklin,MO,confirmed,
 Gasconade,MO,confirmed,
@@ -56,7 +56,7 @@ Stoddard,MO,confirmed,highlighted on map
 Scott,MO,confirmed,highlighted on map
 Mississippi,MO,confirmed,
 New Madrid,MO,confirmed,DROPPING 2027
-Pemiscot,MO,verify,bootheel - confirm
+Pemiscot,MO,confirmed,bootheel
 Dunklin,MO,confirmed,DROPPING 2027
 Butler,MO,confirmed,Poplar Bluff
 Ripley,MO,confirmed,
@@ -66,15 +66,15 @@ Texas,MO,confirmed,
 Wright,MO,confirmed,
 Laclede,MO,confirmed,Lebanon
 Pulaski,MO,confirmed,
-Dallas,MO,verify,boundary county
+Dallas,MO,confirmed,
 Webster,MO,confirmed,
 Douglas,MO,confirmed,
 Ozark,MO,confirmed,
-Taney,MO,verify,Branson - high tourist/senior - confirm purple
-Stone,MO,verify,boundary county
+Taney,MO,confirmed,Branson - high tourist/senior
+Stone,MO,confirmed,
 Christian,MO,confirmed,Springfield suburb
 Greene,MO,confirmed,SPRINGFIELD - major market
-Polk,MO,verify,boundary county
+Polk,MO,confirmed,
 Hickory,MO,verify,boundary county
 Benton,MO,verify,boundary county
 Morgan,MO,confirmed,
