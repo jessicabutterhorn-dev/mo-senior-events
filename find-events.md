@@ -12,6 +12,11 @@ Read `territory.csv`. Search every county where `confidence` is `confirmed` or
 `verify`. (The `verify` rows are unconfirmed boundary counties — still search
 them; Jessica will prune later.)
 
+**Region sharding:** the territory is split into regions via the `region` column
+(NORTHEAST, EAST, CENTRAL, SOUTHEAST, SOUTHWEST) so each run covers ~15–19
+counties and avoids timeouts. If the run prompt specifies a `REGION`, search
+ONLY rows where `region` matches it; otherwise search all rows.
+
 ## Step 2 — Search the web
 
 For each county, run web searches for **upcoming events in the next 90 days**.
@@ -53,7 +58,10 @@ vendor access, and anything outside the territory counties.
 
 ## Step 4 — Output: append to this week's CSV
 
-Write to `events/YYYY-MM-DD.csv` (today's date, the run date). Columns:
+Write to `events/YYYY-MM-DD-<REGION>.csv` when a region is specified (e.g.
+`events/2026-06-25-CENTRAL.csv`), else `events/YYYY-MM-DD.csv`. Use today's run
+date. One file per region keeps parallel regional runs from clobbering each
+other. Columns:
 
 ```
 date,end_date,event_name,event_type,venue,address,city,county,state,audience,tabling_confirmed,tabling_details,cost,contact_name,contact_email,contact_phone,registration_url,source_url,date_found,notes

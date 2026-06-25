@@ -1,82 +1,82 @@
-county,state,confidence,notes
-Clark,MO,confirmed,DROPPING 2027
-Scotland,MO,confirmed,DROPPING 2027
-Schuyler,MO,confirmed,
-Putnam,MO,confirmed,
-Mercer,MO,confirmed,
-Sullivan,MO,confirmed,
-Adair,MO,confirmed,
-Knox,MO,confirmed,
-Lewis,MO,confirmed,
-Marion,MO,confirmed,
-Shelby,MO,confirmed,
-Macon,MO,confirmed,
-Linn,MO,confirmed,
-Chariton,MO,confirmed,highlighted on map
-Randolph,MO,confirmed,
-Monroe,MO,confirmed,
-Ralls,MO,confirmed,
-Pike,MO,confirmed,
-Lincoln,MO,confirmed,
-Audrain,MO,confirmed,
-Boone,MO,confirmed,Columbia - major market
-Callaway,MO,confirmed,
-Montgomery,MO,confirmed,
-Warren,MO,confirmed,
-St. Charles,MO,confirmed,St Louis metro
-St. Louis,MO,confirmed,St Louis metro
-St. Louis City,MO,confirmed,St Louis metro
-Jefferson,MO,confirmed,
-Franklin,MO,confirmed,
-Gasconade,MO,confirmed,
-Osage,MO,confirmed,
-Cole,MO,confirmed,Jefferson City - major market
-Moniteau,MO,confirmed,
-Cooper,MO,confirmed,
-Howard,MO,confirmed,
-Maries,MO,confirmed,
-Miller,MO,confirmed,
-Camden,MO,confirmed,Lake of the Ozarks - high 65+ population
-Phelps,MO,confirmed,Rolla
-Crawford,MO,confirmed,
-Washington,MO,confirmed,
-Ste. Genevieve,MO,confirmed,
-St. Francois,MO,confirmed,
-Perry,MO,confirmed,
-Cape Girardeau,MO,confirmed,major market
-Bollinger,MO,confirmed,
-Madison,MO,confirmed,DROPPING 2027
-Iron,MO,confirmed,
-Reynolds,MO,confirmed,
-Dent,MO,confirmed,
-Shannon,MO,confirmed,
-Carter,MO,confirmed,
-Wayne,MO,confirmed,
-Stoddard,MO,confirmed,highlighted on map
-Scott,MO,confirmed,highlighted on map
-Mississippi,MO,confirmed,
-New Madrid,MO,confirmed,DROPPING 2027
-Pemiscot,MO,confirmed,bootheel
-Dunklin,MO,confirmed,DROPPING 2027
-Butler,MO,confirmed,Poplar Bluff
-Ripley,MO,confirmed,
-Oregon,MO,confirmed,
-Howell,MO,confirmed,West Plains
-Texas,MO,confirmed,
-Wright,MO,confirmed,
-Laclede,MO,confirmed,Lebanon
-Pulaski,MO,confirmed,
-Dallas,MO,confirmed,
-Webster,MO,confirmed,
-Douglas,MO,confirmed,
-Ozark,MO,confirmed,
-Taney,MO,confirmed,Branson - high tourist/senior
-Stone,MO,confirmed,
-Christian,MO,confirmed,Springfield suburb
-Greene,MO,confirmed,SPRINGFIELD - major market
-Polk,MO,confirmed,
-Hickory,MO,verify,boundary county
-Benton,MO,verify,boundary county
-Morgan,MO,confirmed,
-Saline,MO,verify,boundary county - confirm
-Pettis,MO,verify,Sedalia - boundary - confirm
+county,state,confidence,region,notes
+Clark,MO,confirmed,NORTHEAST,DROPPING 2027
+Scotland,MO,confirmed,NORTHEAST,DROPPING 2027
+Schuyler,MO,confirmed,NORTHEAST,
+Putnam,MO,confirmed,NORTHEAST,
+Mercer,MO,confirmed,NORTHEAST,
+Sullivan,MO,confirmed,NORTHEAST,
+Adair,MO,confirmed,NORTHEAST,
+Knox,MO,confirmed,NORTHEAST,
+Lewis,MO,confirmed,NORTHEAST,
+Marion,MO,confirmed,NORTHEAST,
+Shelby,MO,confirmed,NORTHEAST,
+Macon,MO,confirmed,NORTHEAST,
+Linn,MO,confirmed,NORTHEAST,
+Chariton,MO,confirmed,NORTHEAST,highlighted on map
+Randolph,MO,confirmed,NORTHEAST,
+Monroe,MO,confirmed,NORTHEAST,
+Ralls,MO,confirmed,NORTHEAST,
+Pike,MO,confirmed,NORTHEAST,
+Audrain,MO,confirmed,NORTHEAST,
+Lincoln,MO,confirmed,EAST,
+Montgomery,MO,confirmed,EAST,
+Warren,MO,confirmed,EAST,
+St. Charles,MO,confirmed,EAST,St Louis metro
+St. Louis,MO,confirmed,EAST,St Louis metro
+St. Louis City,MO,confirmed,EAST,St Louis metro
+Jefferson,MO,confirmed,EAST,
+Franklin,MO,confirmed,EAST,
+Ste. Genevieve,MO,confirmed,EAST,
+St. Francois,MO,confirmed,EAST,
+Washington,MO,confirmed,EAST,
+Perry,MO,confirmed,EAST,
+Boone,MO,confirmed,CENTRAL,Columbia - major market
+Callaway,MO,confirmed,CENTRAL,
+Gasconade,MO,confirmed,CENTRAL,
+Osage,MO,confirmed,CENTRAL,
+Cole,MO,confirmed,CENTRAL,Jefferson City - major market
+Moniteau,MO,confirmed,CENTRAL,
+Cooper,MO,confirmed,CENTRAL,
+Howard,MO,confirmed,CENTRAL,
+Maries,MO,confirmed,CENTRAL,
+Miller,MO,confirmed,CENTRAL,
+Camden,MO,confirmed,CENTRAL,Lake of the Ozarks - high 65+ population
+Morgan,MO,confirmed,CENTRAL,
+Saline,MO,verify,CENTRAL,boundary county - confirm
+Pettis,MO,verify,CENTRAL,Sedalia - boundary - confirm
+Benton,MO,verify,CENTRAL,boundary county
+Hickory,MO,verify,CENTRAL,boundary county
+Cape Girardeau,MO,confirmed,SOUTHEAST,major market
+Bollinger,MO,confirmed,SOUTHEAST,
+Madison,MO,confirmed,SOUTHEAST,DROPPING 2027
+Iron,MO,confirmed,SOUTHEAST,
+Reynolds,MO,confirmed,SOUTHEAST,
+Dent,MO,confirmed,SOUTHEAST,
+Shannon,MO,confirmed,SOUTHEAST,
+Carter,MO,confirmed,SOUTHEAST,
+Wayne,MO,confirmed,SOUTHEAST,
+Stoddard,MO,confirmed,SOUTHEAST,highlighted on map
+Scott,MO,confirmed,SOUTHEAST,highlighted on map
+Mississippi,MO,confirmed,SOUTHEAST,
+New Madrid,MO,confirmed,SOUTHEAST,DROPPING 2027
+Pemiscot,MO,confirmed,SOUTHEAST,bootheel
+Dunklin,MO,confirmed,SOUTHEAST,DROPPING 2027
+Butler,MO,confirmed,SOUTHEAST,Poplar Bluff
+Ripley,MO,confirmed,SOUTHEAST,
+Oregon,MO,confirmed,SOUTHEAST,
+Phelps,MO,confirmed,SOUTHWEST,Rolla
+Crawford,MO,confirmed,SOUTHWEST,
+Pulaski,MO,confirmed,SOUTHWEST,
+Texas,MO,confirmed,SOUTHWEST,
+Howell,MO,confirmed,SOUTHWEST,West Plains
+Wright,MO,confirmed,SOUTHWEST,
+Laclede,MO,confirmed,SOUTHWEST,Lebanon
+Dallas,MO,confirmed,SOUTHWEST,
+Webster,MO,confirmed,SOUTHWEST,
+Douglas,MO,confirmed,SOUTHWEST,
+Ozark,MO,confirmed,SOUTHWEST,
+Taney,MO,confirmed,SOUTHWEST,Branson - high tourist/senior
+Stone,MO,confirmed,SOUTHWEST,
+Christian,MO,confirmed,SOUTHWEST,Springfield suburb
+Greene,MO,confirmed,SOUTHWEST,SPRINGFIELD - major market
+Polk,MO,confirmed,SOUTHWEST,
