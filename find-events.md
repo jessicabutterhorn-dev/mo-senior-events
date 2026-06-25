@@ -24,6 +24,10 @@ Use varied queries per county, e.g.:
 - `<largest city> senior day OR 55+ expo OR resource fair`
 - `<county> Missouri Area Agency on Aging events`
 - `<county> MO Council on Aging / senior dance / bingo`
+- `Walk to End Alzheimer's <largest city / region> Missouri 2026`
+- `American Heart Association Heart Walk <largest city> MO 2026`
+- `Sista Strut breast cancer walk <region> Missouri 2026` (usually October)
+- `<largest city> MO health walk / awareness walk / 5k sponsor vendor` (diabetes, cancer, stroke, kidney, heart, Alzheimer's, etc.)
 
 Also check recurring sources: county senior centers, Area Agencies on Aging,
 libraries, hospitals/health systems, churches with senior ministries, Chambers
@@ -36,7 +40,10 @@ KEEP an event only if BOTH are true:
 1. **Senior-skewing audience** — expo, senior day/expo, health fair, resource
    fair, senior center event, 55+ dance, bingo, craft fair for seniors, county
    fair, farmers market, festival, church senior group, civic club (Rotary/
-   Lions), library senior program — anywhere the 65+ crowd shows up.
+   Lions), library senior program, **charity health walks/runs** (Walk to End
+   Alzheimer's, AHA Heart Walk, Sista Strut breast-cancer walk — often October;
+   diabetes/cancer/stroke/kidney walks), and any **event supporting senior
+   health issues** — anywhere the 65+ crowd shows up.
 2. **Tabling opportunity** — the listing mentions (or clearly implies) vendor
    tables, exhibitor/booth space, sponsorship, or vendor applications. If it
    only *implies* (e.g. a large public expo), set `tabling_confirmed = implied`.

@@ -1,6 +1,6 @@
 county,state,confidence,notes
-Clark,MO,confirmed,
-Scotland,MO,confirmed,
+Clark,MO,confirmed,DROPPING 2027
+Scotland,MO,confirmed,DROPPING 2027
 Schuyler,MO,confirmed,
 Putnam,MO,confirmed,
 Mercer,MO,confirmed,
@@ -45,7 +45,7 @@ St. Francois,MO,confirmed,
 Perry,MO,confirmed,
 Cape Girardeau,MO,confirmed,major market
 Bollinger,MO,confirmed,
-Madison,MO,confirmed,
+Madison,MO,confirmed,DROPPING 2027
 Iron,MO,confirmed,
 Reynolds,MO,confirmed,
 Dent,MO,confirmed,
@@ -55,9 +55,9 @@ Wayne,MO,confirmed,
 Stoddard,MO,confirmed,highlighted on map
 Scott,MO,confirmed,highlighted on map
 Mississippi,MO,confirmed,
-New Madrid,MO,confirmed,
+New Madrid,MO,confirmed,DROPPING 2027
 Pemiscot,MO,verify,bootheel - confirm
-Dunklin,MO,verify,bootheel - confirm
+Dunklin,MO,confirmed,DROPPING 2027
 Butler,MO,confirmed,Poplar Bluff
 Ripley,MO,confirmed,
 Oregon,MO,confirmed,

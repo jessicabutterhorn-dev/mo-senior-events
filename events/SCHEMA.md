@@ -9,7 +9,7 @@ Each weekly run writes one file: `YYYY-MM-DD.csv` (the run date).
 | date | event start, `YYYY-MM-DD` |
 | end_date | event end if multi-day, else blank |
 | event_name | name of event |
-| event_type | expo / health fair / senior day / craft fair / festival / fair / civic / faith / other |
+| event_type | expo / health fair / senior day / craft fair / festival / fair / health walk / civic / faith / other |
 | venue | building or place |
 | address | street address if listed |
 | city | city |

@@ -24,7 +24,9 @@ and commits a fresh CSV to `events/`. (Set up via the schedule routine.)
 Any senior-skewing public gathering with a vendor/sponsor table option: senior
 expos, health fairs, senior days, resource fairs, 55+ dances, bingo, craft
 fairs, county fairs, farmers markets, festivals, church senior groups, civic
-clubs (Rotary/Lions), library senior programs, Area Agency on Aging events.
+clubs (Rotary/Lions), library senior programs, Area Agency on Aging events,
+charity health walks (Walk to End Alzheimer's, AHA Heart Walk, Sista Strut),
+and other events supporting senior health issues.
 
 ## Territory to verify
 
