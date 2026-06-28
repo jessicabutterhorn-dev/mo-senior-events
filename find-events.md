@@ -19,10 +19,19 @@ ONLY rows where `region` matches it; otherwise search all rows.
 
 ## Step 2 — Search the web
 
-For each county, run web searches for events dated **at least 21 days out and no
-more than 120 days** from the run date. (Jessica needs ~20 days' lead to get a
+**First, compute the date window and write it down before searching:**
+- `EARLIEST` = run date **+ 21 days**
+- `LATEST` = run date **+ 120 days**
+- Example: run date 2026-06-28 → EARLIEST **2026-07-19**, LATEST **2026-10-26**.
+
+State both dates explicitly at the start of your run, then use them as hard
+bounds. An event qualifies on date ONLY if its `date` is on/after EARLIEST and
+on/before LATEST.
+
+For each county, run web searches for events dated between EARLIEST and LATEST
+(at least 21 days out, no more than 120). Jessica needs ~20 days' lead to get a
 booth/event approved — anything sooner than 21 days is unusable, so do not return
-it.) Senior gatherings are not only fairs — lead with standing senior venues so
+it. Senior gatherings are not only fairs — lead with standing senior venues so
 recall does not collapse onto county fairs.
 
 **Lead with standing senior venues** (run these first, every county):
@@ -108,6 +117,11 @@ Rules:
   tabling_details, notes routinely contain commas). Verify before writing.
 - Trim leading/trailing whitespace from every field (no ` 636-931-7697`).
 - Sort by `date` ascending.
+
+**FINAL DATE CHECK (do this before saving — #1 mistake):** go row by row and
+compare each `date` against the EARLIEST/LATEST cutoffs from Step 2. Delete any
+row with `date` before EARLIEST (too soon — can't get approved) or after LATEST.
+Do not skip this — a single sub-21-day row makes the whole file untrustworthy.
 
 ## Step 5 — Summary
 
