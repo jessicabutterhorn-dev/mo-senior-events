@@ -19,8 +19,10 @@ ONLY rows where `region` matches it; otherwise search all rows.
 
 ## Step 2 — Search the web
 
-For each county, run web searches for **upcoming events in the next 90 days**.
-Senior gatherings are not only fairs — lead with standing senior venues so
+For each county, run web searches for events dated **at least 21 days out and no
+more than 120 days** from the run date. (Jessica needs ~20 days' lead to get a
+booth/event approved — anything sooner than 21 days is unusable, so do not return
+it.) Senior gatherings are not only fairs — lead with standing senior venues so
 recall does not collapse onto county fairs.
 
 **Lead with standing senior venues** (run these first, every county):
@@ -65,9 +67,11 @@ KEEP an event only if BOTH are true:
    tables, exhibitor/booth space, sponsorship, or vendor applications. If it
    only *implies* (e.g. a large public expo), set `tabling_confirmed = implied`.
 
-DROP: virtual-only events, events whose `end_date` (or `date` if single-day) is
-before the run date, private/invite-only with no vendor access, and anything
-outside the territory counties.
+DROP: virtual-only events; events dated **fewer than 21 days from the run date**
+(can't get approved in time) or **more than 120 days out**; private/invite-only
+with no vendor access; and anything outside the territory counties.
+Worked example: run date 2026-06-28 → keep only events with `date` on or after
+**2026-07-19** (21 days out).
 
 ## Step 4 — Output: append to this week's CSV
 
